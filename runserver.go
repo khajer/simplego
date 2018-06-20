@@ -6,7 +6,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, getTextHello())
+    fmt.Fprintf(w, getMessage())
 }
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 }
 
 //simple method 
-func getTextHello() string{
+func getMessage() string{
 	return "hello, world : microservice"
 }
 
