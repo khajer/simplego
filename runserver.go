@@ -14,6 +14,7 @@ func main() {
     http.ListenAndServe(":8080", nil)
 }
 
+//simple method 
 func getTextHello() string{
 	return "hello, world : microservice"
 }
